@@ -35,7 +35,6 @@ Responsive and visually consistent with the rest of the page.
 Styling:
 All styles implemented inside React components using inline CSS objects.
 Focused on modern color palette, spacing, typography, and hover effects.
-No external CSS frameworks (Tailwind/Vite) used.
 
 Responsiveness:
 Flexbox and flex-wrap used to ensure components stack neatly on smaller screens.
