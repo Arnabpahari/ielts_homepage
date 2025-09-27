@@ -1,74 +1,44 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Implementational details: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Navbar:
+Sticky top navigation bar with logo and menu links.
+Responsive layout for desktop and mobile.
 
-## Available Scripts
+Hero Section:
+Large headline and subtext introducing the institute.
+Call-to-action button.
+Fully responsive using flex layout with wrap.
 
-In the project directory, you can run:
+Features Section:
+3–4 feature cards highlighting core services:
+Speaking Practice
+Mock Tests
+AI Band Score
+Personalized Coaching
 
-### `npm start`
+Each card has an icon, title, description, and hover scale effect.
+Reusable FeatureCard component for modularity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Testimonials Section:
+2–3 student reviews displayed as cards.
+Each testimonial has student name, avatar, and feedback.
+Uses reusable TestimonialCard component.
+Responsive layout that adapts to mobile screens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Footer:
+Three-column layout with:
+Institute info
+Quick links
+Contact details
+Responsive and visually consistent with the rest of the page.
 
-### `npm test`
+Styling:
+All styles implemented inside React components using inline CSS objects.
+Focused on modern color palette, spacing, typography, and hover effects.
+No external CSS frameworks (Tailwind/Vite) used.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsiveness:
+Flexbox and flex-wrap used to ensure components stack neatly on smaller screens.
+Buttons, cards, and images scale properly across devices.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# ielts_homepage
->>>>>>> 81bc83d6c1684138337909d491cd6a430676eb0e
+This project is designed to be modern, professional, and fully responsive. It features a Navbar, Hero Section, Features Section with reusable cards, Student Testimonials, and a Footer with contact info and links. All styling is done inline within React components, focusing on clean design, modular structure, and responsive layouts using flexbox. Interactive hover effects, a soft color palette, and clear typography ensure a polished, user-friendly interface. The project demonstrates component-based React development, responsive UI practices, and modular design.
