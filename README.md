@@ -1,3 +1,4 @@
+
 Implementational details: 
 
 Navbar:
